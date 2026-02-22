@@ -56,7 +56,7 @@ const CODES = {
   },
 } as const;
 
-const COUNTRY_MAP: Record<string, string> = { Myanmar: "MM", Thailand: "TH" };
+const COUNTRY_MAP: Record<string, string> = { Ireland: "IE", Myanmar: "MM", Thailand: "TH" };
 
 const MAX_BYTES = 25 * 1024 * 1024; // 25MB
 const MAX_ROWS = 50000; // data rows (excluding header)
